@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.notes-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.notes-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.footer-text{
+
+}
+.footer-menu{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#note-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#clear-notes {
+    background-color: #dc3545;
+}
+
+#clear-notes:hover {
+    background-color: #c82333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.note-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.note-item:nth-child(odd) {
+    background-color: #ffeeba;
+}
+
+.note-item:nth-child(even) {
+    background-color: #c3e6cb;
+}
+
+.note-item:hover {
+    background-color: #d1ecf1;
+}
+
+.note-count {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+    width: 30px; /* Fixed width for the count column */
+    text-align: right; /* Align the number to the right */
+}
+
+.note-content {
+    flex-grow: 1;
+    margin-right: 10px;
+    color: #333;
+}
+
+.note-item button {
+    background-color: #dc3545;
+    margin-left: 5px;
+}
+
+.note-item button.edit {
+    background-color: #28a745;
+}
+
+.note-item button.edit:hover {
+    background-color: #218838;
+}
+
+.note-item button:hover {
+    background-color: #c82333;
+}
+.btn-con{
+    display: flex;
+    justify-content: center;
+}
+#clear-notes{
+    margin-left: 20px;
+}
+.postion{
+    display: flex;
+    justify-content: center;
+}
+#edit-btn,#remove-btn{
+    padding: 6px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+#edit-btn{
+    background: #0030ff;
+}
+#remove-btn{
+    background: red;
+}
+.btn,#clear-notes{
+    display: flex;
+    border-radius: 125px;
+    width: 50px;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+}
+#note-input{
+    width: 96%;
+    height: 220px;
+}
